@@ -1,5 +1,4 @@
-# This is the script of EEG-Deformer
-# This is the network script
+
 import torch
 from torch import nn
 from torch.nn.utils import weight_norm
@@ -242,3 +241,4 @@ if __name__ == "__main__":
     print(count_parameters(emt))
 
     out = emt(data)
+
